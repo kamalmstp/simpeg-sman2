@@ -18,6 +18,8 @@ class PerubahanDataResource extends Resource
     protected static ?string $model = PerubahanData::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Menu Utama';
+    protected static ?string $navigationLabel = 'Perubahan Data';
 
     public static function form(Form $form): Form
     {

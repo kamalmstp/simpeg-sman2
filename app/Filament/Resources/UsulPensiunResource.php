@@ -18,6 +18,8 @@ class UsulPensiunResource extends Resource
     protected static ?string $model = UsulPensiun::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Menu Utama';
+    protected static ?string $navigationLabel = 'Usul Pensiun';
 
     public static function form(Form $form): Form
     {

@@ -18,6 +18,8 @@ class ArsipMasukResource extends Resource
     protected static ?string $model = ArsipMasuk::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Surat';
+    protected static ?string $navigationLabel = 'Arsip Masuk';
 
     public static function form(Form $form): Form
     {

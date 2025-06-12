@@ -18,6 +18,8 @@ class UsulCutiResource extends Resource
     protected static ?string $model = UsulCuti::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationGroup = 'Menu Utama';
+    protected static ?string $navigationLabel = 'Usul Cuti';
 
     public static function form(Form $form): Form
     {
